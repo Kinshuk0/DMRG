@@ -1,0 +1,46 @@
+Energy1 = -8.68247297665494
+----------------------------
+SWEEP-1, direction=R, max_bond=(8/8), cutoff:1e-08
+100%|###########################################| 19/19 [00:00<00:00, 34.76it/s]
+Energy: -8.657898257195253 ... not converged.
+SWEEP-2, direction=R, max_bond=(8/16), cutoff:1e-08
+100%|##########################################| 19/19 [00:00<00:00, 108.25it/s]
+Energy: -8.682417906931306 ... not converged.
+SWEEP-3, direction=R, max_bond=(16/32), cutoff:1e-08
+100%|##########################################| 19/19 [00:00<00:00, 139.62it/s]
+Energy: -8.68247288646431 ... not converged.
+SWEEP-4, direction=R, max_bond=(21/64), cutoff:1e-08
+100%|##########################################| 19/19 [00:00<00:00, 141.10it/s]
+Energy: -8.682473017444018 ... converged!
+----------------------------
+Reading 'combine'=True for config TwoSiteDMRGEngine
+Subconfig 'trunc_params'=Config(<3 options>, 'trunc_params') for config TwoSiteDMRGEngine
+Reading 'max_E_err'=1e-10 for config TwoSiteDMRGEngine
+Reading 'mixer'=True for config TwoSiteDMRGEngine
+================================================================================
+sweep 10, age = 20
+Energy = -8.6824733343989617, S = nan, norm_err = 3.7e-13
+Current memory usage 303.3 MB, time elapsed: 8.5 s
+Delta E = nan, Delta S = 0.0000e+00 (per sweep)
+max_trunc_err = 1.7108e-16, max_E_trunc = 2.6645e-14
+MPS bond dimensions: [2, 4, 8, 16, 32, 64, 100, 100, 100, 100, 100, 100, 100, 64, 32, 16, 8, 4, 2]
+disable mixer after 15 sweeps, final amplitude 3.05e-10
+================================================================================
+sweep 20, age = 20
+Energy = -8.6824733343989351, S = 0.6601856601226691, norm_err = 6.0e-14
+Current memory usage 303.7 MB, time elapsed: 15.1 s
+Delta E = 2.6645e-15, Delta S = nan (per sweep)
+max_trunc_err = 5.5116e-17, max_E_trunc = 1.9540e-14
+MPS bond dimensions: [2, 4, 8, 16, 32, 64, 98, 100, 100, 100, 100, 100, 98, 64, 32, 16, 8, 4, 2]
+================================================================================
+sweep 30, age = 20
+Energy = -8.6824733343989688, S = 0.6601856601226657, norm_err = 7.1e-14
+Current memory usage 298.1 MB, time elapsed: 19.9 s
+Delta E = -3.3751e-15, Delta S = -3.4417e-16 (per sweep)
+max_trunc_err = 5.5791e-17, max_E_trunc = 1.7764e-14
+MPS bond dimensions: [2, 4, 8, 16, 32, 64, 98, 100, 100, 100, 100, 100, 98, 64, 32, 16, 8, 4, 2]
+================================================================================
+DMRG finished after 30 sweeps.
+total size = 20, maximum chi = 100
+================================================================================
+-8.682473334398969
